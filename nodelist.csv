@@ -1,0 +1,73 @@
+ID,name,country,type
+1,Florian Mueller,Deutschland,1
+33,Fabian Bredlow,Deutschland,1
+42,Florian Schock,Deutschland,1
+5,Konstantinos Mavropanos,Griechenland,1
+2,Waldemar Anton,Deutschland,1
+37,Hiroki Ito,Japan,1
+24,Borna Sosa,Kroatien,1
+15,Pascal Stenzel,Deutschland,1
+23,Orel Mangala,Belgien,1
+3,Wataru Endo,Japan,1
+16,Atakan Karazor,Deutschland,1
+32,Naouirou Ahamada,Frankreich,1
+6,Clinton Mola,England,1
+8,Enzo Millot,Frankreich,1
+28,Nikolas Nartey,Daenemark,1
+14,Silas Katompa Mvumpa,DR Kongo,1
+30,Roberto Massimo,Deutschland,1
+11,Erik Thommy,Deutschland,1
+20,Philipp Foerster,Deutschland,1
+31,Mateo Klimowicz,Deutschland,1
+25,Lilian Egloff,Deutschland,1
+34,Oemer Beyaz,Tuerkei,1
+10,Daniel Didavi,Deutschland,1
+7,Tanguy Coulibaly,Frankreich,1
+22,Chris Fuehrich,Deutschland,1
+9,Sasa Kalajdzic,Oesterreich,1
+18,Tiago Tomas,Portugal,1
+17,Omar Marmoush,Aegypten,1
+19,Wahid Faghir,Daenemark,1
+50,Alexis Tibidi,Frankreich,1
+44,Mohamed Sankoh,Niederlande,1
+M05,Mainz 05,Deutschland,2
+H96,Hannover 96,Deutschland,2
+VVST,VV St Truiden,Belgien,2
+ARS,FC Arsenal ,England,2
+CHE,FC Chelsea,England,2
+PSG,Paris Saint Germain,Frankreich,2
+MON,AS Monaco FC,Frankreich,2
+ADM,FC Admira Wacker Moedling,Oesterreich,2
+WOB,VfL Wolfsburg,Deutschland,2
+FCA,FC Augsburg,Deutschland,2
+PAR,Paris FC,Frankreich,2
+SCF,SC Freiburg,Deutschland,2
+KIE,Holstein Kiel,Deutschland,2
+SPO,Sporting Lissabon,Portugal,2
+VEJ,Vejle Boldklub,Daenemark,2
+SVS,SV Sandhausen,Deutschland,2
+PAD,SC Paderborn 07,Deutschland,2
+AND,RSC Anderlecht,Belgien,2
+ZAG,Dinamo Zagreb,Kroatien,2
+VFB,VfB Stuttgart Jugend,Deutschland,2
+KOE,FC Koeln,Deutschland,2
+ARM,Arminia Bielefeld,Deutschland,2
+COR,Instituto AC Cordoba,Argentinien,2
+JUV,Juventus Turin,Italien,2
+FCN,FC Nuernberg,Deutschland,2
+FEN,Fenerbahce Instanbul,Tuerkei,2
+IWA,Jubilo Iwata,Japan,2
+GER,Deutschland,,
+JAP,Japan,,
+GRE,Griechenland,,
+ENG,England,,
+FRA,Frankreich,,
+AUS,Oesterreich,,
+COD,DR Kongo,,
+EGY,Aegypten,,
+POR,Portugal,,
+DEN,Daenemark,,
+BEL,Belgien,,
+CRO,Kroatien,,
+TUR,Tuerkei,,
+NED,Niederlande,,
