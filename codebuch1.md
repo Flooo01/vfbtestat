@@ -1,6 +1,7 @@
-Codebuch
+*Codebuch*
 
-Stand 2022-05-19
+*Stand 2022-05-19*
+
 
 	
 edgelist
@@ -13,6 +14,7 @@ weight: Transfersumme in 100.000 Euro Schritten, gerundet falls abweichend.
 
 season: Jahr des Transfers (nur erste Jahreszahl des Transferfensters als JJJJ verwendet)
 
+
 	
 nodelist
 
@@ -24,7 +26,8 @@ country: Land des Spielers oder des Vereins
 
 type: Art des Akteurs (1=Spieler, 2=Verein)
 	
-	
+
+
 	
 NA: definiert fehlende Werte, bei der Datenerhebung das Feld einfach leer lassen, R rechnet NAs (missing values) automatisch raus..
 	
