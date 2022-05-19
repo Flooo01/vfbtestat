@@ -4,6 +4,9 @@
 
 Daten erhoben von: https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79
 
+NA: definiert fehlende Werte, bei der Datenerhebung das Feld einfach leer lassen, R rechnet NAs (missing values) automatisch raus..
+
+
 	
 ## edgelist
 
@@ -27,8 +30,4 @@ country: Land des Spielers oder des Vereins
 
 type: Art des Akteurs (1=Spieler, 2=Verein)
 	
-
-## Sonstiges
-	
-NA: definiert fehlende Werte, bei der Datenerhebung das Feld einfach leer lassen, R rechnet NAs (missing values) automatisch raus..
 	
