@@ -1,0 +1,66 @@
+---
+title: "Testat 226305 Netzwerkanalyse"
+author: "Florian Bauer | fb099@hdm-stuttgart.de"
+date: "Sommersemester 22"
+subtitle: "Analyse des Transfernetzwerks des VfB Stuttgarts"
+---
+
+## Daten einlesen und igraph-Objekt erstellen
+
+```{r Gesamnetzwerk erstellen, echo=FALSE}
+
+library(igraph)
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Flooo01/vfbtestat/main/edgelist.csv", header=T, as.is=T, sep = ",")
+
+nodes <- read.csv("https://raw.githubusercontent.com/Flooo01/vfbtestat/main/nodelist.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt s
+s <- graph_from_data_frame(d=edgematrix, directed=T)
+s
+```
+
+
+## Visualisierung des erstellten igraph-Objekts
+
+
+```{r Visualisierung, fig.height=6, fig.width=10}
+
+
+par(mfrow=c(1,1), mar=c(2,1,1,1))
+
+
+plot(s,
+     asp=0,
+     layout=layout_with_dh,
+     vertex.size=degree(s)*2,
+     vertex.frame.color=NA,
+     vertex.color="orange",
+     vertex.shape="circle",
+     vertex.label.color="black",
+     vertex.label.cex=.6,
+     edge.arrow.size=.3,
+     main ="Netzwerk des VfB Stuttgart")
+```
+
+
+## Codebuch
+
+[Codebuch](https://github.com/Flooo01/vfbtestat/blob/main/codebuch.md)
+
+Das Netzwerk hat folgende Attribute:
+
+*Vertex-Attribute*
+
+- name: Name des Knotens, also	Spieler oder Vereinsname
+- country:	Land des Spielers oder des Vereins
+- type:	Art des Akteurs (1=Spieler, 2=Verein)
+
+*Edge-Attribute*
+
+- weight:	Transfersumme in 100.000 Euro Schritten, gerundet falls abweichend
+- season: Jahr des Transfers (nur erste Jahreszahl des Transferfensters als JJJJ verwendet)
