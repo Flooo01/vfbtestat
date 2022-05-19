@@ -3,6 +3,8 @@ Codebuch
 *Stand 2022-05-19*
 
 
+Daten erhoben von: https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79
+
 	
 edgelist
 
